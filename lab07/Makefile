@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS_SIMD=-std=c99 -Wall -O0 -c
+CFLAGS_SIMD=-std=c99 -Wall -O0 -c -mavx -mfma
 
 CFLAGS_OMP=-std=gnu99 -fopenmp -c
 LDFLAGS_OMP=-fopenmp
